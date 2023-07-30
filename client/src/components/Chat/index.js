@@ -16,7 +16,7 @@ function Chat() {
   const [room, setRoom] = useState("");
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
-  const ENDPOINT = "localhost:5000";
+  const ENDPOINT = "https://port-0-project-chat-application-cu6q2blkowp082.sel4.cloudtype.app";
 
   useEffect(() => {
     const { name, room } = q.parse(location.search);
